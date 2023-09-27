@@ -125,12 +125,25 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+	display: flex;
+	width: 100%;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
 }
 #banner .arrow_left {
+	position: relative;
+	display: flex;
 	left: 10px;
+	background: transparent;
+	border-color: transparent;
 }
 #banner .arrow_right {
+	position: relative;
+	display: flex;
 	right: 10px;
+	background: transparent;
+	border-color: transparent;
 }
 /* Gestion des points du carrousel */
 .dots {
@@ -145,12 +158,24 @@ header {
 	background-color: #ffffff00;
 	border: 3px solid #fff;
 	border-radius: 100%;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dot_selected {
 	background-color: #fff;
+	border-radius: 100%;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	margin-inline: 5px;
+	width: 13px;
+	height: 13px;
 }
 /* Fin du code CSS pour le carousel */
+
+
+
+
+
+
+
 #banner p {
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: 900;
