@@ -171,10 +171,13 @@ header {
 
 /* Fin du code CSS pour le carousel */
 
-
-
-
-
+/* ajout perso pour un effet sur l'image*/
+.banner-img {
+  transition: opacity 1s ease;
+}
+.banner-img.hide {
+  opacity: 0.6;
+}
 
 
 #banner p {
