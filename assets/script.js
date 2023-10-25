@@ -84,8 +84,8 @@ function showImage(index) {
   imageElement.classList.add('hide');
   setTimeout(() => {
     imageElement.src = "./assets/images/slideshow/" + images[index];
-    imageElement.classList.remove('hide');  
-  }, 600); 
+    imageElement.classList.remove('hide');
+  }, 600);
 }
 
 
@@ -102,6 +102,10 @@ function createBulletPoints() {
     bullet.classList.add("dot");
     bullet.addEventListener("click", () => navigateToSlide(i));
     bulletContainer.appendChild(bullet);
+
+    if (i === 0) {
+      bullet.classList.add("dot_selected");
+    }
   }
 }
 
