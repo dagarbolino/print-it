@@ -1,0 +1,5 @@
+repo github:
+https://github.com/dagarbolino/print-it.git
+
+site web sur git pages:
+https://dagarbolino.github.io/print-it/
